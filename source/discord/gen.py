@@ -21,7 +21,7 @@ class Creator:
             # ws.connect("wss://gateway.discord.gg/?encoding=json&v=9&compress=zlib-stream")
             resp = self.client.post(
                 "https://discord.com/api/v9/auth/register",
-                headers=anti.Data.header(browser=anti.DiscordData(
+                headers=anti.Data.header(browser=anti.DiscordData( # TODO create the dataclass inside anti. 
                     xtrack=self.instance.browser.discord.xtrack, version=self.instance.browser.version,
                     useragent=self.instance.browser.useragent, fingerprint=self.instance.browser.discord.fingerprint
                 )), json={
