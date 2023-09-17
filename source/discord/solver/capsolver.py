@@ -12,7 +12,7 @@ class CapSolver:
 @dataclass
 class OPResp:
     ERROR: int = 1
-    SUCCESS: int = 0,
+    SUCCESS: int = 0
 
     READY: str = "ready"
     PROCESSING: str = "processing"
