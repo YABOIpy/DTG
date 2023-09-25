@@ -9,7 +9,7 @@ import httpx
 class Creator:
 
     def __init__(self, instance: thread.Instance) -> None:
-        self.name = 'github.com/yaboipy'.join(random.choice('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(6))
+        self.name = 'github.com/yaboipy='.join(random.choice('0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ') for _ in range(6))
         self.client = instance.client
         self.instance = instance
         self.client.proxies = instance.proxy
