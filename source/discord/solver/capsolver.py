@@ -25,7 +25,6 @@ def solve_captcha(api_key: str, ua: str, proxy: str) -> str:
             "type": "HCaptchaTurboTask",
             "websiteURL": "https://discord.com",
             "websiteKey": "4c672d35-0701-42b2-88c3-78380b0db560",
-            "appId": "855C85D8-89FF-4358-A3A0-3A91AC8D4E5F",
             "proxy": proxy,
             "userAgent": ua
         }}).json()
