@@ -10,8 +10,8 @@ Simple &amp; Fast Discord Account Creator
 ```
 | Name | Type | Description | 
 | ---  | ---  | ---         |
-| `MaxWorkers` | int | Global The Limit of threads allowed to run
-| `ApiKey` | string | the Capsolver api key
+| `MaxWorkers` | int | The Limit of threads allowed to run
+| `ApiKey` | string | The Capsolver api key
 ```cmd
 > add proxies in proxies.txt with the format user:pass@ip:port // advised to use sticky residential proxies
 > it will create an account for each proxy within the file.
